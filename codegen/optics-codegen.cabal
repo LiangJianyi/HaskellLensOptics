@@ -1,0 +1,8 @@
+cabal-version: 2.2
+name: optics-codegen
+version: 0
+
+executable optics-codegen-subtypes
+  main-is: Subtypes.hs
+  build-depends:
+    base, containers, vector, topograph ^>= 1
